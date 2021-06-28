@@ -1,0 +1,16 @@
+.setting-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.setting-line .left-group {
+  display: inline-flex;
+  align-items: center;
+}
+.setting-line .left-group > div {
+  margin-right: 20px;
+}
+.setting-line .left-group > div:last-child {
+  margin-right: 0;
+}
